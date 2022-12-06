@@ -11,10 +11,10 @@ $con->close();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test</title>
-    <script src="includes/jquery-3.6.1.min.js" ></script>
-    <script src="js/bootstrap.js"></script>
-    <link href="css/bootstrap.css">
-    <link href="css/style.css" rel="stylesheet">
+    <script src="../js/jquery-3.4.1.min.js" ></script>
+    <script src="../js/bootstrap.js"></script>
+    <link href="../css/bootstrap.css">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 
