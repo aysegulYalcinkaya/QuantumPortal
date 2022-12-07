@@ -165,7 +165,7 @@ a:focus {
       .nav-link {
         padding: 5px 20px;
         color: $black;
-        text-align: center;
+        text-align: left;
         text-transform: uppercase;
         border-radius: 5px;
         transition: all 0.3s;
@@ -808,6 +808,9 @@ a:focus {
       }
     }
   }
+}
+.btn-custom{
+  width:140px !important;
 }
 
 // end footer section
