@@ -1,68 +1,311 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <!-- Basic -->
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <!-- Mobile Metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <!-- Site Metas -->
-      <meta name="keywords" content="" />
-      <meta name="description" content="" />
-      <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Quantum Science Member Portal-Survey</title>
-      <!-- jQery -->
-      <script src="js/jquery-3.4.1.min.js"></script>
-      <!-- bootstrap core css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-      <!-- font awesome style -->
-      <link href="css/font-awesome.min.css" rel="stylesheet" />
-      <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet" />
-      <!-- responsive style -->
-      <link href="css/responsive.css" rel="stylesheet" />
-   </head>
-   <body class="sub_page">
-      <div class="hero_area">
-         <!-- header section strats -->
-         <header class="header_section">
-            <div>
-               <div class="load-html" id="menu" data-source="menu.html"></div>
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Site Metas -->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+    <title>Quantum Science Member Portal-Survey</title>
+    <!-- jQery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet"/>
+</head>
+<body class="sub_page">
+<div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+        <div>
+            <div class="load-html" id="menu" data-source="menu.html"></div>
+        </div>
+    </header>
+    <!-- end header section -->
+</div>
+<!-- inner page section -->
+<section class="inner_page_head">
+    <div class="container_fuild">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full">
+                    <h3>Survey</h3>
+                </div>
             </div>
-         </header>
-         <!-- end header section -->
-      </div>
-      <!-- inner page section -->
-      <section class="inner_page_head">
-         <div class="container_fuild">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full">
-                     <h3>Survey</h3>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end inner page section -->
-      <!-- why section -->
-      <section class="why_section layout_padding">
-         <div class="container">
-            <div class="heading_container heading_center">
-               <h2>
-                  Coming Soon...
-               </h2>
-            </div>
-         </div>
-      </section>
+        </div>
+    </div>
+</section>
+<!-- end inner page section -->
+<!-- why section -->
+<section class="why_section layout_padding">
+    <div class="container">
+        <form method="post">
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="additional_info">
+                        <label class="form-check-label" for="additional_info">Are you interested in receiving addition
+                            info?
+                        </label>
+                    </div>
+                </div>
+                <p>
+                    <b> Please type lines in email for all your interests: (check all that apply)</b>
+                </p>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q2">
+                        <label class="form-check-label" for="additional_info">Commercial relevance of information
+                            relating to adv in QT
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q3">
+                        <label class="form-check-label" for="additional_info">Relevance to international, cross
+                            disciplinary… collaboration
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q4">
+                        <label class="form-check-label" for="additional_info">Theoretical issues in Quantum Science
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q5">
+                        <label class="form-check-label" for="additional_info">Experimental issues in Quantum Science
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q6">
+                        <label class="form-check-label" for="additional_info">Issues related to Quantum Technology
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q7">
+                        <label class="form-check-label" for="additional_info">Quantum Algorithms (QS, QN, QC)
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="q8">
+                        <label class="form-check-label" for="additional_info">Semantic, machine learning & ontology
+                            approaches
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="additional_info">What is your primary role?
+                    </label>
+                    <select class="form-input" id="q9">
+                        <option value="">Select</option>
+                        <option value="P&S">Products & services</option>
+                        <option value="QE">Quantum engineering</option>
+                        <option value="QIS">Quantum information science</option>
+                        <option value="QPT">Quantum physics & theory</option>
+                        <option value="SH">Stakeholder (supporter or beneficiary)</option>
+                        <option value="Stu">Student</option>
+                        <option value="Oth">Other</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can knowledge sharing (from quantum and
+                        related disciplines) be improved?
+                    </label>
+                    <select class="form-input" id="q10">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can access to quantum research portals
+                        (sources) be improved?
+                    </label>
+                    <select class="form-input" id="q11">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can access to quantum tools, techniques
+                        and procedures (TTPs) be improved?
+                    </label>
+                    <select class="form-input" id="q12">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can comparisons be facilitated (made
+                        easier, more complete, accurate), e.g., of quantum prototypes and COTS product spec sheets?
+                    </label>
+                    <select class="form-input" id="q13">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">Is there a better way to share knowledge than
+                        through published documents alone?
+                    </label>
+                    <select class="form-input" id="q14">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can discovery and insight be improved?
+                    </label>
+                    <select class="form-input" id="q15">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can collaboration and friendly scientific
+                        argument between SMEs be improved?
+                    </label>
+                    <select class="form-input" id="q16">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can strategic planning be improved, and
+                        used to identify top priority quantum objectives (end-goals and their use cases)?
+                    </label>
+                    <select class="form-input" id="q17">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can query from knowledge base be improved,
+                        i.e., speed, precision, completeness, and comprehensibility (for example: query for the complete
+                        set of relevant research papers)?
+                    </label>
+                    <select class="form-input" id="q18">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">How can the vast amount of Quantum knowledge
+                        in documents, websites, news feeds, etc. be better managed, and effectively and efficiently be
+                        used?
+                    </label>
+                    <select class="form-input" id="q19">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">Some difficult Quantum R&D issues require
+                        specialized expertise. How can quantum requirements be rapidly addressed with respective
+                        specialized quantum expertise?
+                    </label>
+                    <select class="form-input" id="q20">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="form-check-label" for="additional_info">What are the high-value applications for
+                        Quantum Ontology and Knowledge graphs? [Barry is my list of 10 top, plus others, for use by
+                        official Teammates in QMI..
+                    </label>
+                    <select class="form-input" id="q21">
+                        <option value="">Select</option>
+                        <option value="SA">Strongly Agree</option>
+                        <option value="A">Agree</option>
+                        <option value="N">50/50</option>
+                        <option value="D">Disagree</option>
+                        <option value="SD">Strongly Disagree</option>
+                    </select>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-label" for="additional_info">Other comments
+                    </label>
+                    <textarea class="form-input" id="q22"></textarea>
 
-      <!-- popper js -->
-      <script src="js/popper.min.js"></script>
-      <!-- bootstrap js -->
-      <script src="js/bootstrap.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <!-- custom js -->
-      <script src="js/custom.js"></script>
-   </body>
+                </di22
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+</body>
 </html>
