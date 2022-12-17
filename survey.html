@@ -1,68 +1,492 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-   <head>
-      <!-- Basic -->
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <!-- Mobile Metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <!-- Site Metas -->
-      <meta name="keywords" content="" />
-      <meta name="description" content="" />
-      <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Quantum Science Member Portal-Survey</title>
-      <!-- jQery -->
-      <script src="js/jquery-3.4.1.min.js"></script>
-      <!-- bootstrap core css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-      <!-- font awesome style -->
-      <link href="css/font-awesome.min.css" rel="stylesheet" />
-      <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet" />
-      <!-- responsive style -->
-      <link href="css/responsive.css" rel="stylesheet" />
-   </head>
-   <body class="sub_page">
-      <div class="hero_area">
-         <!-- header section strats -->
-         <header class="header_section">
-            <div>
-               <div class="load-html" id="menu" data-source="menu.html"></div>
-            </div>
-         </header>
-         <!-- end header section -->
-      </div>
-      <!-- inner page section -->
-      <section class="inner_page_head">
-         <div class="container_fuild">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full">
-                     <h3>Survey</h3>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end inner page section -->
-      <!-- why section -->
-      <section class="why_section layout_padding">
-         <div class="container">
-            <div class="heading_container heading_center">
-               <h2>
-                  Coming Soon...
-               </h2>
-            </div>
-         </div>
-      </section>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1"/>
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+    <title>Quantum Science Member Portal-Survey</title>
+    <!-- jQery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet"/>
+    <style type="text/css">@media print {
+        .form-section {
+            display: inline !important
+        }
 
-      <!-- popper js -->
-      <script src="js/popper.min.js"></script>
-      <!-- bootstrap js -->
-      <script src="js/bootstrap.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <!-- custom js -->
-      <script src="js/custom.js"></script>
-   </body>
+        .form-pagebreak {
+            display: none !important
+        }
+
+        .form-section-closed {
+            height: auto !important
+        }
+
+        .page-section {
+            position: initial !important
+        }
+    }</style>
+    <link type="text/css" rel="stylesheet" href="css/formstyle.css"/>
+
+</head>
+<body class="sub_page" >
+<div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+        <div>
+            <div class="load-html" id="menu" data-source="menu.html"></div>
+        </div>
+    </header>
+    <!-- end header section -->
+</div>
+<!-- inner page section -->
+<section class="inner_page_head">
+    <div class="container_fuild">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full">
+                    <h3>Survey</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<form class="jotform-form" action="" method="post"
+      name="survey+form" id="survey+form" accept-charset="utf-8">
+    <div role="main" class="form-all">
+        <style>
+            .form-all:before {
+                background: none;
+            }
+        </style>
+        <ul class="form-section page-section">
+            <li class="form-line">
+                <div class="form-input-wide">
+                    <div class="form-single-column">
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="isInterested" name="isInterested" value="Yes"/>
+                            <label class="form-check-label" for="isInterested" style="font-size: 16px;font-weight: 500">Are you interested in receiving additional info?</label>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line">
+                <label class="form-label form-label-top form-label-auto"> Please type lines in email for all your interests: (Check all that apply) </label>
+                <div id="cid_28" class="form-input-wide">
+                    <div class="form-single-column">
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op1" name="op1" value="Commercial relevance of information relating to adv in QT"/>
+                            <label>Commercial relevance of information relating to adv in QT</label>
+                        </span>
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op2" name="op2" value="Relevance to international, cross    disciplinary… collaboration"/>
+                            <label>Relevance to international, cross disciplinary… collaboration</label>
+                        </span>
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op3" name="op3" value="Theoretical issues in Quantum Science"/>
+                            <label>Theoretical issues in Quantum Science</label>
+                        </span>
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op4" name="op4" value="Experimental issues in Quantum Science"/>
+                            <label>Experimental issues in Quantum Science</label>
+                        </span>
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op5" name="op5" value="Issues related to Quantum Technology"/>
+                            <label>Issues related to Quantum Technology</label>
+                        </span>
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op6" name="op6" value="Quantum Algorithms (QS, QN, QC)"/>
+                            <label>Issues related to Quantum Technology</label>
+                        </span>
+                        <span class="form-checkbox-item" style="clear:left">
+                            <input type="checkbox" class="form-check-input" id="op7" name="op7" value="Semantic, machine learning & ontology approaches"/>
+                            <label>Issues related to Quantum Technology</label>
+                        </span>
+
+                    </div>
+                </div>
+            </li>
+            <li class="form-line">
+                <label class="form-label form-label-top form-label-auto"> What is your primary role? </label>
+                <div class="form-input-wide">
+                    <select class="form-dropdown" id="role" name="role" style="width:310px">
+                        <option value="P&S">Products & services</option>
+                        <option value="QE">Quantum engineering</option>
+                        <option value="QIS">Quantum information science</option>
+                        <option value="QPT">Quantum physics & theory</option>
+                        <option value="SH">Stakeholder (supporter or beneficiary)</option>
+                        <option value="Stu">Student</option>
+                        <option value="Oth">Other</option>
+                </select></div>
+            </li>
+            <li class="form-line">
+                <label class="form-label form-label-top"> How would you rate the following? </label>
+                <div class="form-input-wide">
+                    <table cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
+                        <tr class="form-matrix-tr form-matrix-header-tr">
+                            <th class="form-matrix-th" style="border:none">&nbsp;</th>
+                            <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0">
+                                <label>Strongly Disagree</label></th>
+                            <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_1">
+                                <label>Disagree</label></th>
+                            <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_2">
+                                <label>50/50</label></th>
+                            <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_3">
+                                <label>Agree</label></th>
+                            <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_4">
+                                <label>Strongly Agree</label></th>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can knowledge sharing (from quantum and related disciplines) be improved?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate1_0" class="form-radio" name="rate1" value="SD"/>
+                                <label for="rate1_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate1_1" class="form-radio" name="rate1" value="D"/>
+                                <label for="rate1_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate1_2" class="form-radio" name="rate1" value="N"/>
+                                <label for="rate1_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate1_3" class="form-radio" name="rate1" value="A"/>
+                                <label for="rate1_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate1_4" class="form-radio" name="rate1" value="SA"/>
+                                <label for="rate1_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can access to quantum research portals (sources) be improved?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate2_0" class="form-radio" name="rate2" value="SD"/>
+                                <label for="rate2_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate2_1" class="form-radio" name="rate2" value="D"/>
+                                <label for="rate2_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate2_2" class="form-radio" name="rate2" value="N"/>
+                                <label for="rate2_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate2_3" class="form-radio" name="rate2" value="A"/>
+                                <label for="rate2_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate2_4" class="form-radio" name="rate2" value="SA"/>
+                                <label for="rate2_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can access to quantum tools, techniques and procedures (TTPs) be improved?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate3_0" class="form-radio" name="rate3" value="SD"/>
+                                <label for="rate3_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate3_1" class="form-radio" name="rate3" value="D"/>
+                                <label for="rate3_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate3_2" class="form-radio" name="rate3" value="N"/>
+                                <label for="rate3_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate3_3" class="form-radio" name="rate3" value="A"/>
+                                <label for="rate3_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate3_4" class="form-radio" name="rate3" value="SA"/>
+                                <label for="rate3_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can comparisons be facilitated (made easier, more complete,
+                                    accurate), e.g., of quantum prototypes and COTS product spec sheets?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate4_0" class="form-radio" name="rate4" value="SD"/>
+                                <label for="rate4_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate4_1" class="form-radio" name="rate4" value="D"/>
+                                <label for="rate4_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate4_2" class="form-radio" name="rate4" value="N"/>
+                                <label for="rate4_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate4_3" class="form-radio" name="rate4" value="A"/>
+                                <label for="rate4_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate4_4" class="form-radio" name="rate4" value="SA"/>
+                                <label for="rate4_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>Is there a better way to share knowledge than through published
+                                    documents alone?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate5_0" class="form-radio" name="rate5" value="SD"/>
+                                <label for="rate5_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate5_1" class="form-radio" name="rate5" value="D"/>
+                                <label for="rate5_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate5_2" class="form-radio" name="rate5" value="N"/>
+                                <label for="rate5_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate5_3" class="form-radio" name="rate5" value="A"/>
+                                <label for="rate5_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate5_4" class="form-radio" name="rate5" value="SA"/>
+                                <label for="rate5_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can discovery and insight be improved?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate6_0" class="form-radio" name="rate6" value="SD"/>
+                                <label for="rate6_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate6_1" class="form-radio" name="rate6" value="D"/>
+                                <label for="rate6_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate6_2" class="form-radio" name="rate6" value="N"/>
+                                <label for="rate6_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate6_3" class="form-radio" name="rate6" value="A"/>
+                                <label for="rate6_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate6_4" class="form-radio" name="rate6" value="SA"/>
+                                <label for="rate6_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can collaboration and friendly scientific argument between
+                                    SMEs be improved?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate7_0" class="form-radio" name="rate7" value="SD"/>
+                                <label for="rate7_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate7_1" class="form-radio" name="rate7" value="D"/>
+                                <label for="rate7_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate7_2" class="form-radio" name="rate7" value="N"/>
+                                <label for="rate7_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate7_3" class="form-radio" name="rate7" value="A"/>
+                                <label for="rate7_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate7_4" class="form-radio" name="rate7" value="SA"/>
+                                <label for="rate7_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can strategic planning be improved, and used to identify top
+                                    priority quantum objectives (end-goals and their use cases)?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate8_0" class="form-radio" name="rate8" value="SD"/>
+                                <label for="rate8_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate8_1" class="form-radio" name="rate8" value="D"/>
+                                <label for="rate8_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate8_2" class="form-radio" name="rate8" value="N"/>
+                                <label for="rate8_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate8_3" class="form-radio" name="rate8" value="A"/>
+                                <label for="rate8_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate8_4" class="form-radio" name="rate8" value="SA"/>
+                                <label for="rate8_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can query from knowledge base be improved, i.e., speed,
+                                    precision, completeness, and comprehensibility (for example: query for the complete set
+                                    of relevant research papers)?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate9_0" class="form-radio" name="rate9" value="SD"/>
+                                <label for="rate9_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate9_1" class="form-radio" name="rate9" value="D"/>
+                                <label for="rate9_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate9_2" class="form-radio" name="rate9" value="N"/>
+                                <label for="rate9_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate9_3" class="form-radio" name="rate9" value="A"/>
+                                <label for="rate9_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate9_4" class="form-radio" name="rate9" value="SA"/>
+                                <label for="rate9_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>How can the vast amount of Quantum knowledge in documents,
+                                    websites, news feeds, etc. be better managed, and effectively and efficiently be
+                                    used?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate10_0" class="form-radio" name="rate10" value="SD"/>
+                                <label for="rate10_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate10_1" class="form-radio" name="rate10" value="D"/>
+                                <label for="rate10_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate10_2" class="form-radio" name="rate10" value="N"/>
+                                <label for="rate10_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate10_3" class="form-radio" name="rate10" value="A"/>
+                                <label for="rate10_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate10_4" class="form-radio" name="rate10" value="SA"/>
+                                <label for="rate10_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>Some difficult Quantum R&amp;D issues require specialized
+                                    expertise. How can quantum requirements be rapidly addressed with respective specialized
+                                    quantum expertise?</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate11_0" class="form-radio" name="rate11" value="SD"/>
+                                <label for="rate11_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate11_1" class="form-radio" name="rate11" value="D"/>
+                                <label for="rate11_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate11_2" class="form-radio" name="rate11" value="N"/>
+                                <label for="rate11_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate11_3" class="form-radio" name="rate11" value="A"/>
+                                <label for="rate11_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate11_4" class="form-radio" name="rate11" value="SA"/>
+                                <label for="rate11_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                        <tr class="form-matrix-tr form-matrix-value-tr">
+                            <th scope="row" class="form-matrix-headers form-matrix-row-headers">
+                                <label>What are the high-value applications for Quantum Ontology and
+                                    Knowledge graphs? [Barry is my list of 10 top, plus others, for use by official
+                                    Teammates in QMI..</label>
+                            </th>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate12_0" class="form-radio" name="rate12" value="SD"/>
+                                <label for="rate12_0" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate12_1" class="form-radio" name="rate12" value="D"/>
+                                <label for="rate12_1" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate12_2" class="form-radio" name="rate12" value="N"/>
+                                <label for="rate12_2" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate12_3" class="form-radio" name="rate12" value="A"/>
+                                <label for="rate12_3" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                            <td class="form-matrix-values">
+                                <input type="radio" id="rate12_4" class="form-radio" name="rate12" value="SA"/>
+                                <label for="rate12_4" class="matrix-choice-label matrix-radio-label"></label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li class="form-line form-field"  data-type="control_textarea">
+                <label class="form-label form-label-top"> Other comments </label>
+                <div class="form-input-wide">
+                    <textarea id="comment" class="form-textarea" name="comment" style="width:648px;height:163px"></textarea>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_button">
+                <div class="form-input-wide">
+                    <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+                        <button id="submit" type="submit"
+                                class="form-submit-button form-submit-button-simple_rose submit-button jf-form-buttons jsTest-submitField"
+                                data-component="button">Submit
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</form>
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+</body>
 </html>
+<script type="text/javascript">JotForm.ownerView = true;</script>
+<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.38078"></script>
+<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.38078"></script>
